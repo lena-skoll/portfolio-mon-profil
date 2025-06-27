@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - 🤎LENA SKOLL🤎</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="./images/moi.png" alt="Photo de Lena Skoll" class="photo-profil" />
+    <h1>🤎LENA SKOLL🤎</h1>
+    <p>École : KEYCE Academy | Filière : IABD | Niveau : B1</p>
+  </header>
+
+  <section id="competences" class="card">
+    <h2>Compétences techniques</h2>
+
+    <div class="buttons">
+      <button onclick="afficherCompetence('html')">
+        <img src="./images/html 110255.png" alt="HTML" class="icone-competence"> HTML
+      </button>
+      <button onclick="afficherCompetence('css')">
+        <img src="./images/css 110329.png" alt="CSS" class="icone-competence"> CSS
+      </button>
+      <button onclick="afficherCompetence('js')">
+        <img src="./images/javq script 2025-06-27 110150.png" alt="JS" class="icone-competence"> JavaScript
+      </button>
+      <button onclick="afficherCompetence('python')">
+        <img src="./images/python 111108.png" alt="Python" class="icone-competence"> Python
+      </button>
+      <button onclick="afficherCompetence('git')">
+        <img src="./images/git  110435.png" alt="Git" class="icone-competence"> Git & GitHub
+      </button>
+    </div>
+
+    <div id="description" style="margin-top: 20px; font-style: italic; min-height: 50px;"></div>
+      
+    <!-- Compteur des clics -->
+    <div id="compteur" style="margin-top: 20px;">
+      <h3>Compétences vues :</h3>
+      <ul id="liste-compteur"></ul>
+    </div>
+  </section>
+
+  <section id="projets" class="card">
+    <h2>Projets réalisés</h2>
+
+    <div class="projet">
+      <h3>Projet 1 : Mon profil</h3>
+      <p>Site personnel responsive réalisé en HTML, CSS et JavaScript.</p>
+      <p><a href="https://github.com/lena-skoll/portfolio-mon-profil" target="_blank">Voir sur GitHub</a></p>
+      <p><em>Projet local – non publié</em></p>
+    </div>
+
+    <div class="projet">
+      <h3>Projet 2 : Application The List</h3>
+      <p>Permet d’ajouter, modifier et supprimer des tâches avec stockage local.</p>
+      <p><a href="https://github.com/lena-skoll/todolist-app" target="_blank">Voir sur GitHub</a></p>
+      <p><em>Projet en cours – publication GitHub prévue</em></p>
+    </div>
+
+    <div class="projet">
+      <h3>Projet 3 : Quiz interactif</h3>
+      <p>Mini puzzel en JavaScript avec interface utilisateur simple.</p>
+      <p><a href="https://github.com/lena-skoll/quiz-js-mini" target="_blank">Voir sur GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Téléphone : +237 696657265</li>
+      <li>Email : lenaskoll79@gmail.com</li>
+      <li><a href="https://www.linkedin.com/in/Lena Skoll Eboubeck" target="_blank">LinkedIn</a></li>
+      <li>Skype : (facultatif)</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
