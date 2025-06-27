@@ -1,0 +1,166 @@
+/* ==== RESET DE BASE ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ==== STYLE GLOBAL DU CORPS ==== */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond ;
+    color: brown ;
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px 40px 20px;
+    line-height: 1.6;
+  }
+  
+  /* ==== HEADER ==== */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: brown;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #5c3d99;
+    font-weight: 600;
+  }
+  
+  .photo-profil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #5c3d99;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ==== TITRES DE SECTIONS ==== */
+  h2 {
+    color: #3e1f47;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #5c3d99;
+    padding-bottom: 7px;
+  }
+  
+  /* ==== CARDS POUR SECTIONS ==== */
+  .card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  /* ==== BOUTONS DE COMPÉTENCES ==== */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    background-color: #5c3d99;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons button:hover {
+    background-color: #432d73;
+  }
+  
+  .icone-competence {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  
+  #description {
+    margin-top: 20px;
+    font-style: italic;
+    min-height: 50px;
+    padding: 10px;
+    border-left: 4px solid #5c3d99;
+    background-color: #f8f5fc;
+    border-radius: 6px;
+  }
+  
+  #compteur {
+    margin-top: 25px;
+  }
+  
+  #compteur ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #compteur li {
+    padding: 4px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* ==== PROJETS ==== */
+  .projet {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .projet-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    float: left;
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .projet h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #2d2d2d;
+  }
+  
+  /* ==== CONTACT ==== */
+  #contact ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  #contact a {
+    color: #5c3d99;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
